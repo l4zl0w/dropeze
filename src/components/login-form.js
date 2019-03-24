@@ -5,7 +5,8 @@ import InnerSection from './inner-section';
 import ButtonContainer from './button-container';
 import { authInputChange, login } from '../actions';
 import { connect } from 'react-redux';
-import 'localstorage-polyfill';
+//import 'localstorage-polyfill';
+import 'proxy-polyfill';
 import _ from 'lodash';
 
 class LoginForm extends Component {

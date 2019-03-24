@@ -43,7 +43,7 @@ class MyTransitPage extends Component {
   render() {
     return (
       <View>
-        <Text>Please confirm which train you are taking on your way home:</Text>
+        <Text>Which train are you taking back home today?</Text>
         {this.renderLocationAndTrainList()}
       </View>
     );
